@@ -10,9 +10,8 @@ Features
 ![alt text](img/app.png)
 
 # Starting the app (v.1 beta)
-To start the App load the jarfile into a folder, open a terminalsession and type "java -jar bq-monitor-v1.jar".
-In current version DEBUG Logs are printed to the terminal.
-See requirments below.
+To start the App load the jarfile from dist folder in this repository into a local folder on your computer, open a terminalsession and type "java -jar bq-monitor-v1.jar". In current version DEBUG Logs are printed to the terminal.
+Please see requirments below.
 
 # Requirements
 In short you need: Java 1.8, Tableau and a Google Cloud BigQuery Service account. Details see below:
