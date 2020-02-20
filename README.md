@@ -1,12 +1,18 @@
 # BQ-Monitor
+If you connect Tableau to a large data set in Google Bigquery, this tool will help you get more insights. 
+Notice: The tool is in beta stage currently.
 
-Real-time Query Monitoring for Google BigQuery and Tableau.
-
-- Get an real-time overview of current query costs
-- Investigate all SQL queries to BigQuery, that are generated in background
-- Export the List as JSON and load it to Tableau
+Features
+- Get a real-time overview of the current query costs
+- Examine all SQL queries to BigQuery that are generated in the background
+- Real-time update as JSON list to load back into the tableau
 
 ![alt text](img/app.png)
+
+# Starting the app (v.1 beta)
+To start the App load the jarfile into a folder, open a terminalsession and type "java -jar bq-monitor-v1.jar".
+In current version DEBUG Logs are printed to the terminal.
+See requirments below.
 
 # Requirements
 In short you need: Java 1.8, Tableau and a Google Cloud BigQuery Service account. Details see below:
@@ -25,8 +31,8 @@ In short you need: Java 1.8, Tableau and a Google Cloud BigQuery Service account
 
 
 # Architecture
-
 ![alt text](img/architecture.jpg)
+
 
 
 
