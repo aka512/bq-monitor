@@ -1,12 +1,12 @@
 # BQ-Monitor
-If you connect Tableau to a large data set in Google Bigquery, this tool will help you get more insights. 
-Notice: The tool is in beta stage currently (v.1).
+If you connect Tableau to a large data set in Google Bigquery, this tool will help you get more insights.
 
 Features
-- Get a real-time overview of the current query costs
-- Examine all SQL queries to BigQuery that are generated in the background
-- Real-time update as JSON list to load back into the tableau
+- Get a real-time overview of the current query costs as provides by BigQuery API
+- Examine all SQL queries to BigQuery that are generated in the background (scans tablau Logs to make this even more realtime)
+- Real-time update to a local JSON-file that can be loaded back to tableau, to visualize it even more
 
+Notice: The tool is in beta stage currently (v.1).
 ![alt text](img/app.png)
 
 # Starting the app (Version 1 beta)
