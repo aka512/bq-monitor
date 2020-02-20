@@ -1,6 +1,6 @@
 # BQ-Monitor
 If you connect Tableau to a large data set in Google Bigquery, this tool will help you get more insights. 
-Notice: The tool is in beta stage currently.
+Notice: The tool is in beta stage currently (v.1).
 
 Features
 - Get a real-time overview of the current query costs
@@ -9,8 +9,8 @@ Features
 
 ![alt text](img/app.png)
 
-# Starting the app (v.1 beta)
-To start the App load the jarfile from dist folder in this repository into a local folder on your computer, open a terminalsession and type "java -jar bq-monitor-v1.jar". In current version DEBUG Logs are printed to the terminal.
+# Starting the app (Version 1 beta)
+To start the App load the jarfile from dist folder in this repository into a local folder on your computer, open a terminalsession and type "java -jar bq-monitor.jar". In current version DEBUG Logs are printed to the terminal.
 Please see requirments below.
 
 # Requirements
